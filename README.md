@@ -8,7 +8,7 @@ Juno College Web Development Bootcamp - Project 1
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-- [Author](#author)
+- [Authors](#authors)
 
 ## Overview
 
@@ -24,14 +24,28 @@ Juno College Web Development Bootcamp - Project 1
 - Solution URL: [Code]()
 - Live Site URL: [Preview]()
 
-## My process
-- Pseudo code
-- Wireframe
-- Kanban
-- Git & Github
+## Our process
+### Pseudo code
+- Home page with title and animal crossing background
+-Form to fill out users information (hemisphere, month, time of day)
+- Listen for button click to store users inputted information
+- Upon form submission
+  - store user inputs into variables
+  - Make an AJAX request to the API based on user inputs to search matching critters
+- Return critters based on criteria 
+  - Display images, type, stats, location etc
+  - Display based on availability (ie gray out what is not available to be caught/discovered) 
+- Option to clear form and search again
 
-- Wireframe
+### MVP
+1. Landing page to welcome the user to the site
+2. Prompt user for information (ie time of year/day/where they live/etc)
+3. Return information to user regarding critters available to find based on inputs
+
+
+### Wireframe
 ![](screenshots/project2_wireframe.png)
+
 
 ### Built with
 
@@ -47,5 +61,4 @@ Juno College Web Development Bootcamp - Project 1
 
 ## Authors
 
-Kaarina Nieminen
-Christopher Leung
+Kaarina Nieminen & Christopher Leung
